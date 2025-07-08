@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "obtain_gavel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "millionareshortbread:millionare_shortbread"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.millionareshortbread.millionare_shortbread.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "millionareshortbread:millionare_shortbread"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.millionareshortbread.millionare_shortbread.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_gavel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
