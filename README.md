@@ -1,34 +1,44 @@
 <div align="center">
-  <h1>Millionare's Shortbread</h1>
 
-  <em>REQUIRES CREATE 0.5.1.J+</em>
-  \n
-  JEI is recommended to see all recipes ingame!
+# Millionaire's Shortbread
+
+*Requires Create 0.5.1.j+*  
+*JEI is recommended to see all recipes in-game!*
+
 </div>
 
-Adds a new food item, Millionare Shortbread, to Minecraft using Create mixers and more.
+---
+
+Adds a new food item, Millionaire's Shortbread, to Minecraft using Create mixers and more.  
 More to come soon!
 
-RECIPES:
-Shortbread
-  Using: Mixer + Heated Blaze Burner
-      - Wheat Flour (x2)
-      - Sugar (x1)
-      - Milk (250mb)
-  yields:
-      - Shortbread (x1)
+---
 
-Caramel
-  Using: Mixer + Heated Blaze Burner
-    - Sugar (x1)
-    - Milk (250mb)
-  yields:
-    -  Caramel (250mb)
+## Recipes
 
-Millionare's Shortbread
-  Using: Mixer + Heated Blaze Burner
-    - Shortbread (x2)
-    - Chocolate (250mb)
-    - Caramel (250mb)
-  yields:
-    - Millionare's Shortbread (x1)
+### Shortbread  
+**Using:** Mixer + Heated Blaze Burner  
+- Wheat Flour (x2)  
+- Sugar (x1)  
+- Milk (250mb)  
+
+**Yields:** Shortbread (x1)
+
+---
+
+### Caramel  
+**Using:** Mixer + Heated Blaze Burner  
+- Sugar (x1)  
+- Milk (250mb)  
+
+**Yields:** Caramel (250mb)
+
+---
+
+### Millionaire's Shortbread  
+**Using:** Mixer + Heated Blaze Burner  
+- Shortbread (x2)  
+- Chocolate (250mb)  
+- Caramel (250mb)  
+
+**Yields:** Millionaire's Shortbread (x1)
