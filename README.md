@@ -2,6 +2,7 @@
   <h1>Millionare's Shortbread</h1>
 
   <em>REQUIRES CREATE 0.5.1.J+</em>
+  \n
   JEI is recommended to see all recipes ingame!
 </div>
 
