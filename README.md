@@ -1,6 +1,9 @@
-# Millionare Shortbread
-- REQUIRED: Create (0.5.1.j+)
-- RECOMMENDED: JEI
+<div align="center">
+  <h1>Millionare's Shortbread</h1>
+
+  <em>REQUIRES CREATE 0.5.1.J+</em>
+  JEI is recommended to see all recipes ingame!
+</div>
 
 Adds a new food item, Millionare Shortbread, to Minecraft using Create mixers and more.
 More to come soon!
