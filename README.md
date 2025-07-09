@@ -1,5 +1,5 @@
 <div align="center">
-
+<img src="https://highspeedtrain.net/storage/images/millionareshortbreadlogo.png" alt="Millionaire's Shortbread Logo" width="300"/>
 # Millionaire's Shortbread
 
 *Requires Create 0.5.1.j+*  
