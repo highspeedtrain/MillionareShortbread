@@ -1,12 +1,13 @@
-<div align="center">
-<img src="https://highspeedtrain.net/storage/images/millionareshortbreadlogo.png" alt="Millionaire's Shortbread Logo" width="300"/>
-<hr>
-# Millionaire's Shortbread
+<p align="center">
+  <img src="https://highspeedtrain.net/storage/images/millionareshortbreadlogo.png" alt="Millionaire's Shortbread Logo" width="300"/>
+</p>
 
-*Requires Create 0.5.1.j+*  
-*JEI is recommended to see all recipes in-game!*
+<h1 align="center">Millionaire's Shortbread</h1>
 
-</div>
+<p align="center">
+  <em>Requires Create 0.5.1.j+</em><br>
+  <em>JEI is recommended to see all recipes in-game!</em>
+</p>
 
 ---
 
