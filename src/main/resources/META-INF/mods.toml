@@ -6,6 +6,8 @@ license="MIT"
 modId="millionareshortbread"
 version="1.0.0"
 displayName="Millionare Shortbread"
+logoFile = "icon.png"
+
 authors="highspeedtrain"
 description='''Adds Millionare Shortbread to Create'''
 issueTrackerURL="https://github.com/highspeedtrain/MillionareShortbread/issues"
