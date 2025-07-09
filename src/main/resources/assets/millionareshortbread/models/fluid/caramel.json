@@ -1,7 +1,0 @@
-{
-    "parent": "forge:fluid",
-    "textures": {
-        "still": "millionareshortbread:fluid/caramel_still",
-        "flowing": "millionareshortbread:fluid/caramel_flow"
-    }
-}

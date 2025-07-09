@@ -19,7 +19,7 @@ public class BlockRegistry {
         DeferredRegister.create(ForgeRegistries.BLOCKS, MillionareShortbread.MOD_ID);
 
     //
-    public static final RegistryObject<LiquidBlock> CARAMEL_BLOCK = BLOCKS.register("caramel_block", () ->
+    public static final RegistryObject<LiquidBlock> CARAMEL_FLUID_BLOCK = BLOCKS.register("caramel_fluid_block", () ->
         new LiquidBlock(FluidRegistry.SOURCE_CARAMEL, BlockBehaviour.Properties.copy(Blocks.WATER))
     );
     //

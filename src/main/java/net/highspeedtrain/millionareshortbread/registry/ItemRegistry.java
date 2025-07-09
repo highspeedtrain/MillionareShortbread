@@ -14,17 +14,19 @@ public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MillionareShortbread.MOD_ID);
 
     //
+    public static final RegistryObject<Item> CARAMEL_BUCKET = ITEMS.register("caramel_bucket", () ->
+        new BucketItem(FluidRegistry.SOURCE_CARAMEL, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1))
+    );
+
     public static final RegistryObject<Item> MILLIONARE_SHORTBREAD = ITEMS.register("millionare_shortbread", () ->
         new Item(new Item.Properties().food(FoodProps.MILLIONARE_SHORTBREAD))
     );
 
-    public static final RegistryObject<Item> CARAMEL_BUCKET = ITEMS.register("caramel_bucket", () ->
-        new BucketItem(FluidRegistry.SOURCE_CARAMEL, new Item.Properties()
-            .craftRemainder(Items.BUCKET)
-            .stacksTo(1)
-        )
+    public static final RegistryObject<Item> SHORTBREAD = ITEMS.register("shortbread", () ->
+        new Item(new Item.Properties())
     );
-
+    //
+    
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
