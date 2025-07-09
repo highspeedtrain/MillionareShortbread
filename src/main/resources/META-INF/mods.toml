@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="Millionare Shortbread"
 authors="highspeedtrain"
 description='''Adds Millionare Shortbread to Create'''
+issueTrackerURL="https://github.com/highspeedtrain/MillionareShortbread/issues"
 
 [[dependencies.millionareshortbread]]
     modId="forge"

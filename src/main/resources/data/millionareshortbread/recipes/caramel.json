@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+		{
+    		"item": "minecraft:sugar"
+    	},
+		{
+      		"amount": 250,
+      		"fluid": "minecraft:milk",
+      		"nbt": {}
+    	}
+    ], 
+	"results": [
+		{
+            "amount": 250,
+            "fluid": "millionareshortbread:caramel_fluid"
+        }
+	]
+}
