@@ -22,7 +22,7 @@ public class AdvancementsGenerator implements ForgeAdvancementProvider.Advanceme
         Advancement test = Advancement.Builder.advancement()
             .display(
                 new ItemStack(ItemRegistry.MILLIONARE_SHORTBREAD.get()),
-                Component.translatable("advancement.millionareshortbread.millionare_shortbread.title"),
+                Component.translatable("advancement.millionareshortbread.millionare_shortbread"),
                 Component.translatable("advancement.millionareshortbread.millionare_shortbread.desc"),
                 new ResourceLocation("minecraft:textures/gui/advancements/backgrounds/stone.png"),
                 FrameType.TASK,
