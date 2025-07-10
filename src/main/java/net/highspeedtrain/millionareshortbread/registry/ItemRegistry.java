@@ -33,6 +33,10 @@ public class ItemRegistry {
     public static final RegistryObject<Item> SALT = ITEMS.register("salt", () ->
         new Item(new Item.Properties())
     );
+
+    public static final RegistryObject<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter", () ->
+        new Item(new Item.Properties())
+    );
     //
     
     public static void register(IEventBus eventBus) {

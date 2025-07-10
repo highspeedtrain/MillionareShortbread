@@ -24,7 +24,7 @@ public class MillionareShortbread {
     public MillionareShortbread() {
         @SuppressWarnings("removal")
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        
         ItemRegistry.register(modEventBus);
         BlockRegistry.register(modEventBus);
         CreativeTab.register(modEventBus);
