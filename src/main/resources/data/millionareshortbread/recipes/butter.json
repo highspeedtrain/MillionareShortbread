@@ -1,0 +1,29 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+		{
+    		"item": "millionareshortbread:salt"
+    	},
+				{
+    		"item": "minecraft:sugar"
+    	},
+		{
+      		"amount": 250,
+      		"fluid": "minecraft:milk",
+      		"nbt": {}
+    	}
+    ], 
+	"results": [
+		{
+			"item": "millionareshortbread:butter",
+			"count": 1,
+			"chance": 1.0
+		},
+		{
+			"item": "millionareshortbread:butter",
+			"count": 1,
+			"chance": 0.1
+		}
+	]
+}

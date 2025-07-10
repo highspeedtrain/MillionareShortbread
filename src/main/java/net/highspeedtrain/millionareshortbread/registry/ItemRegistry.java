@@ -25,6 +25,14 @@ public class ItemRegistry {
     public static final RegistryObject<Item> SHORTBREAD = ITEMS.register("shortbread", () ->
         new Item(new Item.Properties())
     );
+
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter", () ->
+        new Item(new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt", () ->
+        new Item(new Item.Properties())
+    );
     //
     
     public static void register(IEventBus eventBus) {

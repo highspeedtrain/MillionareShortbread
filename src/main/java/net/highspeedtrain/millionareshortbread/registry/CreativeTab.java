@@ -10,19 +10,21 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 public class CreativeTab {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MillionareShortbread.MOD_ID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MillionareShortbread.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> MILLIONARE_SHORTBREAD_TAB =
-            CREATIVE_MODE_TABS.register("millionareshortbreadmain", () -> CreativeModeTab.builder()
-                .title(Component.translatable("itemGroup.millionareshortbread"))
-                .icon(() -> new ItemStack(ItemRegistry.MILLIONARE_SHORTBREAD.get()))
-                .displayItems((features, output) -> {
-                    output.accept(ItemRegistry.MILLIONARE_SHORTBREAD.get());
-                    output.accept(ItemRegistry.CARAMEL_BUCKET.get());
-                    output.accept(ItemRegistry.SHORTBREAD.get());
-                })
-                .build());
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("millionareshortbreadmain",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemRegistry.MILLIONARE_SHORTBREAD.get()))
+                    .title(Component.translatable("creativetab.millionareshortbreadmain"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ItemRegistry.MILLIONARE_SHORTBREAD.get());
+                        pOutput.accept(ItemRegistry.SHORTBREAD.get());
+                        pOutput.accept(ItemRegistry.BUTTER.get());
+                        pOutput.accept(ItemRegistry.SALT.get());
+
+                        pOutput.accept(ItemRegistry.CARAMEL_BUCKET.get());
+                    })
+                    .build()
+    );
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

@@ -6,6 +6,9 @@
     		"item": "millionareshortbread:shortbread"
     	},
 		{
+    		"item": "millionareshortbread:shortbread"
+    	},
+		{
       		"amount": 250,
       		"fluid": "create:chocolate",
       		"nbt": {}

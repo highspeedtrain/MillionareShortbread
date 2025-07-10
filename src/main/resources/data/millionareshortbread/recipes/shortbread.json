@@ -12,9 +12,7 @@
     		"item": "minecraft:sugar"
     	},
 		{
-      		"amount": 250,
-      		"fluid": "minecraft:milk",
-      		"nbt": {}
+    		"item": "millionareshortbread:butter"
     	}
     ], 
 	"results": [

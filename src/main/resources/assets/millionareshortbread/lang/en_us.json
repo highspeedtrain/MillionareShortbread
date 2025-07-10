@@ -7,7 +7,9 @@
 
     "item.millionareshortbread.millionare_shortbread": "Millionare Shortbread",
     "item.millionareshortbread.shortbread": "Shortbread",
+    "item.millionareshortbread.salt": "Salt",
+    "item.millionareshortbread.butter": "Butter",
     "item.millionareshortbread.caramel_bucket": "Caramel Bucket",
 
-    "itemGroup.millionareshortbread": "Millionare Shortbread"
+    "creativetab.millionareshortbreadmain": "Create: Dessert"
 }
